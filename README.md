@@ -1,7 +1,7 @@
 # Analise exploratória de carros a venda nos EUA
 
-<div align="center">
-<img src="[https://desblogada.files.wordpress.co...](https://github.com/HelderSCordeiro/EDA_CARS/assets/97766575/6a45aed2-7d16-4e51-a34e-d84d3e166ff0)" width="0px" />
+<div align="left">
+<img src="https://github.com/HelderSCordeiro/EDA_CARS/assets/97766575/98da3284-5032-4a74-8ee7-288cbfe2b2e3" width="700px" />
 </div>
 
-1. Introdução
+# 1. Introdução
