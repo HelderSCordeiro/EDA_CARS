@@ -27,23 +27,19 @@ O objetivo deste estudo é realizar uma Análise Exploratória dos Dados do conj
 Nesta seção será apresentado todo o processo de preparação, organização e limpeza de dados feito no dataset que possui os seguintes dados:
 
 
-| Coluna          | Descrição                                                                 | Tipo    |
-|-----------------|---------------------------------------------------------------------------|-------- |
-| Price           | Valor do veiculo a venda                                                  | Integer |
-| classe          | Classe social.                                                            |         |
-| sobreviveu      | Sobrevivente? Sim (1), Não (0).                                           |         |
-| nome            | Nome do passageiro.                                                       |         |
-| sexo            | Masculino (male), Feminino (female).                                      |         |
-| idade           | Idade do passageiro.                                                      |         |
-| irmaos_conjuges | Número de irmãos e cônjuges a bordo.                                      |         |
-| pais_filhos     | Número de pais e filhos a bordo.                                          |         |
-| bilhete         | Número do bilhete                                                         |         |
-| tarifa          | Preço da tarifa do passageiro.                                            |         |
-| cabine          | Cabine.                                                                   |         |
-| embarque        | Nome do porto de embarque: C = Cherbourg; Q = Queenstown; S = Southampton |         |
-| bote            | Bote salva vidas.                                                         |         |
-| corpo           | Número de identificação do corpo.                                         |         |
-| destino         | Local de desembarque do passageiro.                                       |         |
+| Coluna            | Descrição                                                                 | Tipo    |
+|-------------------|---------------------------------------------------------------------------|-------- |
+| Price             | Valor do veiculo a venda                                                  | Integer |
+| Years             | Ano de registro do veiculo                                                            |         |
+| Brand             | Marca do carro                                           |         |
+| Model             | Modelo do veiculo                                                       |         |
+| Color             | Cor do veiculo                                            |         |
+| State/City        | Idade do passageiro.                                                      |         |
+| Mileage           | Número de irmãos e cônjuges a bordo.                                      |         |
+| Vin               | Número de pais e filhos a bordo.                                          |         |
+| Title Status      | Número do bilhete                                                         |         |
+| Lot               | Preço da tarifa do passageiro.                                            |         |
+| Condition         | Cabine.                                                                   |         |
 
 
 Feature	Type	Description
