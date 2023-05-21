@@ -18,8 +18,9 @@ O objetivo deste estudo é realizar uma Análise Exploratória dos Dados do conj
 - Qual marca teve mais numero de vendas?
 - Qual veiculo foi mais comprado?
 - Quais modelos possuem maior faturamento?
-- Qual ano possuem carrso em melhores condições?
+- Qual ano possuem carros em melhores condições?
 - Qual marca possui maior numero de carros em condições ruins?
+- Quais caracteristicas tem uma melhor probabilidade de oferecer um carro em melhores condições?
 
 
 
@@ -27,44 +28,23 @@ O objetivo deste estudo é realizar uma Análise Exploratória dos Dados do conj
 Nesta seção será apresentado todo o processo de preparação, organização e limpeza de dados feito no dataset que possui os seguintes dados:
 
 
-| Coluna            | Descrição                                                                 | Tipo    |
-|-------------------|---------------------------------------------------------------------------|-------- |
-| Price             | Valor do veiculo a venda                                                  | Integer |
-| Years             | Ano de registro do veiculo                                                            |         |
-| Brand             | Marca do carro                                           |         |
-| Model             | Modelo do veiculo                                                       |         |
-| Color             | Cor do veiculo                                            |         |
-| State/City        | Idade do passageiro.                                                      |         |
-| Mileage           | Número de irmãos e cônjuges a bordo.                                      |         |
-| Vin               | Número de pais e filhos a bordo.                                          |         |
-| Title Status      | Número do bilhete                                                         |         |
-| Lot               | Preço da tarifa do passageiro.                                            |         |
-| Condition         | Cabine.                                                                   |         |
+| Coluna            | Descrição                                | Tipo    |
+|-------------------|------------------------------------------|-------- |
+| Price             | Valor do veiculo a venda                 | Integer |
+| Years             | Ano de registro do veiculo               | Integer |
+| Brand             | Marca do carro                           | String  |
+| Model             | Modelo do veiculo                        | String  |
+| Color             | Cor do veiculo                           | String  |
+| State/City        | Cidade onde o carro está localizado      | String  |
+| Mileage           | Milhas percorridas pelo carro            | Float   |
+| Vin               | Identificação númerica do veiculo        | integer |
+| Title Status      | Classificação do veiculo                 | String  |
+| Lot               | Numero de identificação do lote          | Integer |
+| Condition         | Tempo                                    | String  |
 
-
-Feature	Type	Description
-Price	Integer	The sale price of the vehicle in the ad
-Years	Integer	The vehicle registration year
-Brand	String	The brand of car
-Model	String	model of the vehicle
-Color	String	Color of the vehicle
-State/City	String	The location in which the car is being available for purchase
-Mileage	Float	miles traveled by vehicle
-Vin	String	The vehicle identification number is a collection of 17 characters (digits and capital letters)
-Title Status	String	This feature included binary classification, which are clean title vehicles and salvage insurance
-Lot	Integer	A lot number is an identification number assigned to a particular quantity or lot of material from a single manufacturer.For cars, a lot number is combined with a serial number to form the Vehicle Identification Number.
-Condition	String	Time
 
 
 ## OBSERVAÇÕES
-classe é uma aproximação do status socioeconômico na época, onde: 1 = Classe Alta1; 2 = Classe Média e 3 = Classe Baixa;
-idade está representada em anos, porém, se a idade for menor que Um (1) ou caso tenha sido estimada, ela estará com casas decimais xx.5;
-tarifa está em Libras esterlinas (British Pounds - £) anteriores a 1970;
-irmaos_conjuges e pais_filhos: as variáveis de relação familiar de algumas relações foram ignoradas; a seguir estão as definições usadas:
-Irmão: Irmão, irmã, meio-irmão ou meia-irmã do passageiro a bordo do Titanic;
-Cônjuge: Marido ou esposa do passageiro a bordo do Titanic (amantes e noivos ignorados);
-Pai: Mãe ou pai do passageiro a bordo do Titanic;
-Criança: Filho, Filha, Enteado ou Enteada do Passageiro a bordo do Titanic;
-Outros parentes excluídos deste estudo incluem primos, sobrinhos / sobrinhas, tias / tios e parentes;
-Algumas crianças viajavam apenas com uma babá, portanto foi atribuído 0 para elas em pais_filhos;
-Alguns viajaram com amigos ou vizinhos muito próximos em uma vila, no entanto, as definições não apóiam essas relações.
+
+Title Status: clean vehicles e salvage insurance
+Lot: é um numero atribuido a uma quantidade especifica de carros produzidos
