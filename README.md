@@ -7,11 +7,7 @@
 
 # Sobre o Projeto
 
-O projeto visa analisar o conjunto de dados Cars EUA, que possui dados referente a carros a venda nos Estados Unidos, o projeto possui foco numa análise minuciosa dos dados a fim de entender comportamento, padrões e através de gráficos e probabilidade encontrar uma possível combinação de características proporcionem a um comprador a escolha de um melhor carro em relação a custo-benefício.
-
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
+O projeto visa analisar o conjunto de dados Cars EUA, que possui dados referente a carros a venda no norte da américa, o projeto possui foco numa análise minuciosa dos dados a fim de entender comportamento, padrões e através de gráficos e encontrar uma possível combinação de características proporcionem a um comprador a escolha de um melhor carro em relação a custo-benefício.
 
 # Índice/Sumário
 
